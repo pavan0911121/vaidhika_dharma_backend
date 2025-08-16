@@ -1,0 +1,65 @@
+# Node.js dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build output
+/dist
+/build
+/lib
+/coverage
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle / Rollup / Parcel / Next.js / Nuxt / Remix / Vite / Astro build outputs
+/.cache
+/.next
+/.nuxt
+/out
+/.output
+/.vite
+/.svelte-kit
+/.astro
+
+# Testing
+/coverage
+/.nyc_output
+jest-html-reporters-*
+
+# dotenv environment files
+.env
+.env.test
+.env.production
+.env.local
+.env.*.local
+
+# VSCode / IDE configs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
