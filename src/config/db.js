@@ -11,6 +11,7 @@ const connectDB = async () => {
     await mongoose.connect(uri, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
+      dbName: 'vaidhika_db', // <-- Add this line
     });
     console.log('✅ MongoDB connected');
   } catch (err) {
